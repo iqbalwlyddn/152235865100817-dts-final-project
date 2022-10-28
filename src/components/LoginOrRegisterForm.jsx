@@ -87,7 +87,7 @@ const LoginOrRegisterForm = ({ loginOrRegister }) => {
     >
       <Box className={styles.boxy} component="form" noValidate>
         <Typography variant="body1">
-          {loginOrRegister === "login" ? "Login Page" : "Register Page"}
+          {loginOrRegister === "login" ? "Hi, It's Login Page, you have to register first !" : "Register Page"}
         </Typography>
 
         <TextField
